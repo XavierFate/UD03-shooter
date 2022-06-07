@@ -226,7 +226,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4357869487502872601}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 200
@@ -308,7 +308,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0b1b6a2d22d96564f9037ae143ea84cf, type: 2}
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -424,7 +424,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 2
-  m_Radius: 0.5
+  m_Radius: 2
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -446,10 +446,10 @@ MonoBehaviour:
   _healthOnStart: 100
   _deadHeight: -30
   _dotProductForShoot: 0.9
-  _useAutoInitialization: 0
-  _forwardSpeed: 5
-  _rotationSpeed: 10
-  _minAngle: 180
+  _useAutoInitialization: 1
+  _forwardSpeed: 10
+  _rotationSpeed: 100
+  _minAngle: 1
   _distanceToGround: 0.1
   _camera: {fileID: 3016776588793020208}
   _weapon: {fileID: 8012958126051834875}
